@@ -7,9 +7,8 @@
 npm install rescript-simple-pdf rescript-webapi --save
 ```
 
-```
-Add `rescript-simple-pdf` and `rescript-webapi` as dependencies in your `bsconfig.json`:
-```
+Add `rescript-simple-pdf` and `rescript-webapi` as dependencies in your `bsconfig.json`
+
 
 ## Usage
 

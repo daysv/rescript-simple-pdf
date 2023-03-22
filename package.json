@@ -1,0 +1,31 @@
+{
+  "name": "rescript-simple-pdf",
+  "version": "1.0.0",
+  "description": "simple pdf viewer",
+  "main": "src/SPDF.bs.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daysv/rescript-simple-pdf.git"
+  },
+  "homepage": "https://github.com/daysv/rescript-simple-pdf#readme",
+  "scripts": {
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript build -with-deps -w"
+  },
+  "keywords": [
+    "rescript",
+    "pdf"
+  ],
+  "author": "daysv",
+  "license": "MIT",
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
+  "devDependencies": {
+    "@ryyppy/rescript-promise": "^2.1.0",
+    "rescript": "*",
+    "rescript-webapi": "^0.7.0"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple PDF</title>
+    <style>
+      body, html {
+        padding: 0;
+        margin: 0;
+      }
+      .wrapper {
+        overflow: auto;
+        height: 80vh;
+        width: 80vw;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="root"></div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/pdf.js/3.3.122/pdf.min.js"></script>
+    <script type="module">
+      import { make } from "../src/SPDF.bs.js"
+      make("https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/examples/learning/helloworld.pdf", document.getElementById("root"))
+    </script>
+  </body>
+</html>

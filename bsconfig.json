@@ -1,0 +1,19 @@
+{
+  "name": "rescript-simple-pdf",
+  "namespace": true,
+  "version": "1.0.0",
+  "suffix": ".bs.js",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "bs-dependencies": [
+    "rescript-webapi",
+    "@ryyppy/rescript-promise"
+  ]
+}
+ 

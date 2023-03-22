@@ -3,11 +3,11 @@
 
 ## Installation
 
-```ssh
+```
 npm install rescript-simple-pdf --save
 ```
 
-```json
+```
 Add `rescript-simple-pdf` as a dependency in your `bsconfig.json`:
 ```
 
